@@ -40,11 +40,22 @@ variable "name" {
   description = "acronym for naming resources"
 }
 
-variable "ami" {
+variable "ami-bastion" {
   type        = string
-  description = "AMI ID for the launch template"
+  description = "AMI ID for the bastion launch template"
 }
-
+variable "ami-web" {
+  type        = string
+  description = "AMI ID for the web launch template"
+}
+variable "ami-nginx" {
+  type        = string
+  description = "AMI ID for the nginx launch template"
+}
+variable "ami-sonar" {
+  type        = string
+  description = "AMI ID for the sonar launch template"
+}
 variable "keypair" {
   type        = string
   description = "key pair for the instances"

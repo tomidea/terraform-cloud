@@ -25,7 +25,13 @@ name = "ACS"
 
 db-name = "tomidedb"
 
-ami = "ami-0b0af3577fe5e3532"
+ami-web = "ami-089559086520abecb"
+
+ami-bastion = "ami-0f50600471aed902e"
+
+ami-nginx = "ami-0baba56ef149ad16c"
+
+ami-sonar = "ami-02c06cd3d6dbbb3d5"
 
 keypair = "devops"
 
